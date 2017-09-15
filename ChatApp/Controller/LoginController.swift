@@ -125,8 +125,8 @@ class LoginController: UIViewController {
     fileprivate func setupProfileImageView() {
         profileImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         profileImageView.topAnchor.constraint(equalTo: view.topAnchor, constant: 10).isActive = true
-        profileImageView.widthAnchor.constraint(equalToConstant: 200).isActive = true
-        profileImageView.heightAnchor.constraint(equalToConstant: 200).isActive = true
+        profileImageView.widthAnchor.constraint(equalToConstant: 130).isActive = true
+        profileImageView.heightAnchor.constraint(equalToConstant: 130).isActive = true
     }
     
     override func viewDidLoad() {
