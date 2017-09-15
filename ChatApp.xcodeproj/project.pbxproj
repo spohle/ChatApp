@@ -12,6 +12,7 @@
 		A9DAE1561F6C3AFF0034982A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DAE1541F6C3AFF0034982A /* Main.storyboard */; };
 		A9DAE1581F6C3AFF0034982A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9DAE1571F6C3AFF0034982A /* Assets.xcassets */; };
 		A9DAE15B1F6C3AFF0034982A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DAE1591F6C3AFF0034982A /* LaunchScreen.storyboard */; };
+		A9DAE1641F6C40590034982A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DAE1631F6C40590034982A /* LoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A9DAE1571F6C3AFF0034982A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9DAE15A1F6C3AFF0034982A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9DAE15C1F6C3AFF0034982A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9DAE1631F6C40590034982A /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		A9DAE14F1F6C3AFE0034982A /* ChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				A9DAE1621F6C402C0034982A /* Controller */,
 				A9DAE1501F6C3AFF0034982A /* AppDelegate.swift */,
-				A9DAE1521F6C3AFF0034982A /* ViewController.swift */,
 				A9DAE1541F6C3AFF0034982A /* Main.storyboard */,
 				A9DAE1571F6C3AFF0034982A /* Assets.xcassets */,
 				A9DAE1591F6C3AFF0034982A /* LaunchScreen.storyboard */,
 				A9DAE15C1F6C3AFF0034982A /* Info.plist */,
 			);
 			path = ChatApp;
+			sourceTree = "<group>";
+		};
+		A9DAE1621F6C402C0034982A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A9DAE1631F6C40590034982A /* LoginController.swift */,
+				A9DAE1521F6C3AFF0034982A /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9DAE1531F6C3AFF0034982A /* ViewController.swift in Sources */,
+				A9DAE1641F6C40590034982A /* LoginController.swift in Sources */,
 				A9DAE1511F6C3AFF0034982A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
